@@ -164,4 +164,4 @@ case "$savefile" in
   * ) echo -p $serverblock;;
 esac
 
-
+echo "127.0.0.1	$server_name" >> /etc/hosts
