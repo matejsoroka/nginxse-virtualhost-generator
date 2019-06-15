@@ -138,8 +138,8 @@ server {\n
         location / {\n
         # First attempt to serve request as file, then\n
         # as directory, then fall back to displaying a 404.\n
-        #try_files \$uri \$uri/ /index.php\$is_args\$args;\n
-        try_files \$uri \$uri/ =404;\n
+        try_files \$uri \$uri/ /index.php\$is_args\$args;\n
+        #try_files \$uri \$uri/ =404;\n
         }\n
        
         $phpblock
